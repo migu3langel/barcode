@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">barcode</string>
+    <string name="Codigo">Codigo de Activo</string>
+    <string name="Custodio">Custodio</string>
+    <string name="Empresa">Empresa</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="Centro_costo">Centro de costo</string>
+    <string name="Editar">Editar</string>
+    
+    
+    <string-array name="numbers">
+
+
+        <item>L320</item>
+        <item>L321</item>
+        <item>L322</item>
+
+    </string-array>
+
+</resources>
