@@ -241,7 +241,7 @@ public class MainActivity extends Activity implements EMDKListener{
 
     public void sendScan(String s){
 
-        String webAddress = "http://10.14.14.23:9000/ia/api/scan";
+        String webAddress = "http://10.14.1.43:9000/ia/api/scan";
         RequestQueue queue = Volley.newRequestQueue(this);
 
         JSONObject object = new JSONObject();
