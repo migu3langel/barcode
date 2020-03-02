@@ -136,7 +136,7 @@ public class MainActivity extends Activity implements EMDKListener{
         {
             // textViewBarcode.setText("Datos Scaneados = " + data);
             Log.v("data",data);
-            buscarId("http://10.14.14.23:9000/ia/api/activo/"+data+"");
+            buscarId("http://10.14.1.43:9000/ia/api/activo/"+data+"");
 
 
         }
@@ -204,7 +204,7 @@ public class MainActivity extends Activity implements EMDKListener{
     private void buscarLote() {
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
-                (Request.Method.GET, "http://10.14.14.23:9000/ia/api/lote/max", null, new Response.Listener<JSONObject>() {
+                (Request.Method.GET, "http://10.14.1.43:9000/ia/api/lote/max", null, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
 

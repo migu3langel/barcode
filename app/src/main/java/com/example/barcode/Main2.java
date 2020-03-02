@@ -121,7 +121,7 @@ public class Main2 extends AppCompatActivity implements AdapterView.OnItemSelect
 
     private void buscarUbicacion() {
 
-        JsonArrayRequest jsonArrayRequest  = new JsonArrayRequest(Request.Method.GET, "http://10.14.14.23:9000/ia/api/ubicacion", null, new Response.Listener<JSONArray>() {
+        JsonArrayRequest jsonArrayRequest  = new JsonArrayRequest(Request.Method.GET, "http://10.14.1.43:9000/ia/api/ubicacion", null, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
 
@@ -175,7 +175,7 @@ public class Main2 extends AppCompatActivity implements AdapterView.OnItemSelect
 
     public void updateActivo(String custodio, String ubicacion, String descripcion,String id){
 
-        String webAddress = "http://10.14.14.23:9000/ia/api/activo/"+id+"/"+ubicacion+"";
+        String webAddress = "http://10.14.1.43:9000/ia/api/activo/"+id+"/"+ubicacion+"";
         RequestQueue queue = Volley.newRequestQueue(this);
         Log.d("ok","isnsert");
         JSONObject object = new JSONObject();
